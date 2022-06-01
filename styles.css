@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.row_images{
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    transition: transform 450ms;
+}
+
+.row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row_images:hover{
+    transform: scale(1.08);
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row_large_images{
+    max-height: 600px;
+}
+.row_large_images:hover{
+    transform: scale(1.09);
+}
+
+.row{
+    color: blanchedalmond;
+    padding-left: 10px;
+}
+
+.head{
+    background-color:#cfcf21;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.button_banner{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
